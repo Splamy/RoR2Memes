@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<LangVersion>preview</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -12,9 +14,13 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="R2API.Core" Version="5.0.4" />
-		<PackageReference Include="R2API.Networking" Version="1.0.2" />
-		<PackageReference Include="R2API.Sound" Version="1.0.0" />
+		<PackageReference Include="BepInEx.Core" Version="5.4.21" />
+		<PackageReference Include="R2API.Networking" Version="1.0.*" />
+		<PackageReference Include="R2API.Sound" Version="1.0.*" />
+		
+		<PackageReference Include="UnityEngine.Modules" Version="2021.3.33" IncludeAssets="compile" />
+		<PackageReference Include="RiskOfRain2.GameLibs" Version="1.4.0-r.0" />
+		<PackageReference Include="MMHOOK.RoR2" Version="2025.11.19" NoWarn="NU1701" />
 	</ItemGroup>
 
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild" Condition="'$(Configuration)' == 'Release'">
