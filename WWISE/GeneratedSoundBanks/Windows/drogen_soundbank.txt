@@ -17,16 +17,16 @@ Effect plug-ins	ID	Name	Type				Notes
 	359210165	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	51668186	hu2	D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\SFX\hu2_E4E92DBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu2		4731
-	181311941	hu10	D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\SFX\hu10_E4E92DBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu10		5126
-	210034912	hu6	D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\SFX\hu6_E4E92DBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu6		4317
-	332186889	hu5	D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\SFX\hu5_E4E92DBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu5		5071
-	639296211	hu1	D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\SFX\hu1_E4E92DBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu1		4507
-	713075328	hu4	D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\SFX\hu4_E4E92DBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu4		6031
-	737392870	hu7	D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\SFX\hu7_E4E92DBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu7		3418
-	790906895	lasermaster_drop_loop	D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\SFX\lasermaster_drop_loop_72F6E016.wem		\Actor-Mixer Hierarchy\Default Work Unit\lasermaster_drop_loop		340261
-	805179194	hu3	D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\SFX\hu3_E4E92DBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu3		4996
-	810021368	gnome_short	D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\SFX\gnome_short_E4E92DBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\gnome_short		118667
-	813821063	drogen	D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\SFX\drogen_72F6E016.wem		\Actor-Mixer Hierarchy\Default Work Unit\drogen		576382
-	1007847808	steamworks	D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\SFX\steamworks_24BE698E.wem		\Actor-Mixer Hierarchy\Default Work Unit\steamworks		5463556
+	51668186	hu2	C:\Users\Quickemu\Code\RoR2Memes\WWISE\.cache\Windows\SFX\hu2_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu2		4662
+	181311941	hu10	C:\Users\Quickemu\Code\RoR2Memes\WWISE\.cache\Windows\SFX\hu10_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu10		5044
+	210034912	hu6	C:\Users\Quickemu\Code\RoR2Memes\WWISE\.cache\Windows\SFX\hu6_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu6		4217
+	332186889	hu5	C:\Users\Quickemu\Code\RoR2Memes\WWISE\.cache\Windows\SFX\hu5_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu5		4986
+	639296211	hu1	C:\Users\Quickemu\Code\RoR2Memes\WWISE\.cache\Windows\SFX\hu1_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu1		4407
+	713075328	hu4	C:\Users\Quickemu\Code\RoR2Memes\WWISE\.cache\Windows\SFX\hu4_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu4		6078
+	737392870	hu7	C:\Users\Quickemu\Code\RoR2Memes\WWISE\.cache\Windows\SFX\hu7_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu7		3372
+	790906895	lasermaster_drop_loop	C:\Users\Quickemu\Code\RoR2Memes\WWISE\.cache\Windows\SFX\lasermaster_drop_loop_18320D45.wem		\Actor-Mixer Hierarchy\Default Work Unit\lasermaster_drop_loop		339589
+	805179194	hu3	C:\Users\Quickemu\Code\RoR2Memes\WWISE\.cache\Windows\SFX\hu3_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\hu\hu3		4928
+	810021368	gnome_short	C:\Users\Quickemu\Code\RoR2Memes\WWISE\.cache\Windows\SFX\gnome_short_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\gnome_short		118333
+	813821063	drogen	C:\Users\Quickemu\Code\RoR2Memes\WWISE\.cache\Windows\SFX\drogen_18320D45.wem		\Actor-Mixer Hierarchy\Default Work Unit\drogen		574324
+	1007847808	steamworks	C:\Users\Quickemu\Code\RoR2Memes\WWISE\.cache\Windows\SFX\steamworks_986E76AD.wem		\Actor-Mixer Hierarchy\Default Work Unit\steamworks		5454705
 

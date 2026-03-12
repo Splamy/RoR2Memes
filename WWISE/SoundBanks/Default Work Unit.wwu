@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{AC5547C3-157C-4551-9CDB-7C333C0A005B}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{AC5547C3-157C-4551-9CDB-7C333C0A005B}" SchemaVersion="119">
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{AC5547C3-157C-4551-9CDB-7C333C0A005B}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="drogen_soundbank" ID="{F63DBC03-DC15-4230-B40E-864988B256CF}">
 					<ObjectInclusionList>
-						<ObjectRef Name="hu" ID="{3F19A781-A70D-4193-AC9A-DB1052025722}" WorkUnitID="{6D182326-A0F9-4175-AB78-75A731C9DD61}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="steamworks" ID="{5FC7900C-249D-42AF-B618-234A71DD7FFC}" WorkUnitID="{6D182326-A0F9-4175-AB78-75A731C9DD61}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="drogen" ID="{7F6E7DF1-B1F6-460F-87ED-CD3C73B08B2D}" WorkUnitID="{6D182326-A0F9-4175-AB78-75A731C9DD61}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="lasermaster_drop_loop" ID="{727CF80B-361E-4803-92B2-A155EB4EF1FE}" WorkUnitID="{6D182326-A0F9-4175-AB78-75A731C9DD61}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="gnome_short" ID="{17C5AED5-59DF-4F0D-8F1D-0A89EBD19602}" WorkUnitID="{6D182326-A0F9-4175-AB78-75A731C9DD61}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="hu" ID="{3F19A781-A70D-4193-AC9A-DB1052025722}" WorkUnitID="{6D182326-A0F9-4175-AB78-75A731C9DD61}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="steamworks" ID="{5FC7900C-249D-42AF-B618-234A71DD7FFC}" WorkUnitID="{6D182326-A0F9-4175-AB78-75A731C9DD61}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="drogen" ID="{7F6E7DF1-B1F6-460F-87ED-CD3C73B08B2D}" WorkUnitID="{6D182326-A0F9-4175-AB78-75A731C9DD61}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="lasermaster_drop_loop" ID="{727CF80B-361E-4803-92B2-A155EB4EF1FE}" WorkUnitID="{6D182326-A0F9-4175-AB78-75A731C9DD61}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="gnome_short" ID="{17C5AED5-59DF-4F0D-8F1D-0A89EBD19602}" WorkUnitID="{6D182326-A0F9-4175-AB78-75A731C9DD61}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList>
 						<ObjectRef Name="Wwise Parametric EQ (Custom)" ID="{6690F1BB-6CE5-4F7D-B3C6-C62D9EAD7EBE}"/>

@@ -1,90 +1,313 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<RootPaths>
-		<ProjectRoot>D:\Code\RoR2Drogen\WWISE-NEW\</ProjectRoot>
-		<SourceFilesRoot>D:\Code\RoR2Drogen\WWISE-NEW\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Code\RoR2Drogen\WWISE-NEW\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Code\RoR2Drogen\WWISE-NEW\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
-	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1335775606" Language="SFX" Hash="2702436060">
-			<ObjectPath>\SoundBanks\Default Work Unit\drogen_soundbank</ObjectPath>
+		<SoundBank Id="1335775606" Type="User" Language="SFX" Hash="{1B95B427-AFC3-C223-B924-5E52F85A57B1}">
 			<ShortName>drogen_soundbank</ShortName>
 			<Path>drogen_soundbank.bnk</Path>
-			<IncludedEvents>
-				<Event Id="83071095" Name="drogen_pause" ObjectPath="\Events\Default Work Unit\drogen_pause"/>
-				<Event Id="3040584550" Name="drogen_resume" ObjectPath="\Events\Default Work Unit\drogen_resume"/>
-				<Event Id="1821358973" Name="drogen_start" ObjectPath="\Events\Default Work Unit\drogen_start"/>
-				<Event Id="3106969855" Name="drogen_stop" ObjectPath="\Events\Default Work Unit\drogen_stop"/>
-				<Event Id="3563009708" Name="gnome_play" ObjectPath="\Events\Default Work Unit\gnome_play"/>
-				<Event Id="247409129" Name="hu_play" ObjectPath="\Events\Default Work Unit\hu_play"/>
-				<Event Id="758272295" Name="lasermaster_drop_charge" ObjectPath="\Events\Default Work Unit\lasermaster_drop_charge"/>
-				<Event Id="2040934607" Name="lasermaster_drop_fire" ObjectPath="\Events\Default Work Unit\lasermaster_drop_fire"/>
-				<Event Id="2649077457" Name="lasermaster_drop_fire_end" ObjectPath="\Events\Default Work Unit\lasermaster_drop_fire_end"/>
-				<Event Id="2729798857" Name="lasermaster_drop_start" ObjectPath="\Events\Default Work Unit\lasermaster_drop_start"/>
-				<Event Id="182908003" Name="lasermaster_drop_stop" ObjectPath="\Events\Default Work Unit\lasermaster_drop_stop"/>
-				<Event Id="2660522436" Name="steamworks_play" ObjectPath="\Events\Default Work Unit\steamworks_play"/>
-				<Event Id="1138002366" Name="steamworks_stop" ObjectPath="\Events\Default Work Unit\steamworks_stop"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="51668186" Language="SFX">
+			<Media>
+				<File Id="51668186" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hu2.wav</ShortName>
-					<Path>SFX\hu2_E4E92DBC.wem</Path>
+					<CachePath>SFX/hu2_05A531A7.wem</CachePath>
 				</File>
-				<File Id="181311941" Language="SFX">
+				<File Id="181311941" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hu10.wav</ShortName>
-					<Path>SFX\hu10_E4E92DBC.wem</Path>
+					<CachePath>SFX/hu10_05A531A7.wem</CachePath>
 				</File>
-				<File Id="210034912" Language="SFX">
+				<File Id="210034912" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hu6.wav</ShortName>
-					<Path>SFX\hu6_E4E92DBC.wem</Path>
+					<CachePath>SFX/hu6_05A531A7.wem</CachePath>
 				</File>
-				<File Id="332186889" Language="SFX">
+				<File Id="332186889" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hu5.wav</ShortName>
-					<Path>SFX\hu5_E4E92DBC.wem</Path>
+					<CachePath>SFX/hu5_05A531A7.wem</CachePath>
 				</File>
-				<File Id="639296211" Language="SFX">
+				<File Id="639296211" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hu1.wav</ShortName>
-					<Path>SFX\hu1_E4E92DBC.wem</Path>
+					<CachePath>SFX/hu1_05A531A7.wem</CachePath>
 				</File>
-				<File Id="713075328" Language="SFX">
+				<File Id="713075328" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hu4.wav</ShortName>
-					<Path>SFX\hu4_E4E92DBC.wem</Path>
+					<CachePath>SFX/hu4_05A531A7.wem</CachePath>
 				</File>
-				<File Id="737392870" Language="SFX">
+				<File Id="737392870" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hu7.wav</ShortName>
-					<Path>SFX\hu7_E4E92DBC.wem</Path>
+					<CachePath>SFX/hu7_05A531A7.wem</CachePath>
 				</File>
-				<File Id="790906895" Language="SFX">
+				<File Id="790906895" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>lasermaster_drop_loop.wav</ShortName>
-					<Path>SFX\lasermaster_drop_loop_72F6E016.wem</Path>
+					<CachePath>SFX/lasermaster_drop_loop_18320D45.wem</CachePath>
 				</File>
-				<File Id="805179194" Language="SFX">
+				<File Id="805179194" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hu3.wav</ShortName>
-					<Path>SFX\hu3_E4E92DBC.wem</Path>
+					<CachePath>SFX/hu3_05A531A7.wem</CachePath>
 				</File>
-				<File Id="810021368" Language="SFX">
+				<File Id="810021368" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>gnome_short.wav</ShortName>
-					<Path>SFX\gnome_short_E4E92DBC.wem</Path>
+					<CachePath>SFX/gnome_short_05A531A7.wem</CachePath>
 				</File>
-				<File Id="813821063" Language="SFX">
+				<File Id="813821063" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>drogen.wav</ShortName>
-					<Path>SFX\drogen_72F6E016.wem</Path>
+					<CachePath>SFX/drogen_18320D45.wem</CachePath>
 				</File>
-				<File Id="1007847808" Language="SFX">
+				<File Id="1007847808" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>steamworks.wav</ShortName>
-					<Path>SFX\steamworks_24BE698E.wem</Path>
+					<CachePath>SFX/steamworks_986E76AD.wem</CachePath>
 				</File>
-			</IncludedMemoryFiles>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="359210165" Name="Wwise Guitar Distortion (Custom)" LibName="Wwise Guitar Distortion" LibId="8257539"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="83071095" Name="drogen_pause">
+					<MediaRefs>
+						<MediaRef Id="813821063"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3040584550" Name="drogen_resume">
+					<MediaRefs>
+						<MediaRef Id="813821063"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1821358973" Name="drogen_start">
+					<MediaRefs>
+						<MediaRef Id="813821063"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3106969855" Name="drogen_stop">
+					<MediaRefs>
+						<MediaRef Id="813821063"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3563009708" Name="gnome_play">
+					<MediaRefs>
+						<MediaRef Id="810021368"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="247409129" Name="hu_play">
+					<MediaRefs>
+						<MediaRef Id="51668186"/>
+						<MediaRef Id="181311941"/>
+						<MediaRef Id="210034912"/>
+						<MediaRef Id="332186889"/>
+						<MediaRef Id="639296211"/>
+						<MediaRef Id="713075328"/>
+						<MediaRef Id="737392870"/>
+						<MediaRef Id="805179194"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="758272295" Name="lasermaster_drop_charge">
+					<MediaRefs>
+						<MediaRef Id="790906895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2040934607" Name="lasermaster_drop_fire">
+					<MediaRefs>
+						<MediaRef Id="790906895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2649077457" Name="lasermaster_drop_fire_end">
+					<MediaRefs>
+						<MediaRef Id="790906895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2729798857" Name="lasermaster_drop_start">
+					<MediaRefs>
+						<MediaRef Id="790906895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="182908003" Name="lasermaster_drop_stop">
+					<MediaRefs>
+						<MediaRef Id="790906895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2660522436" Name="steamworks_play">
+					<MediaRefs>
+						<MediaRef Id="1007847808"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="359210165"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="1138002366" Name="steamworks_stop">
+					<MediaRefs>
+						<MediaRef Id="1007847808"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="359210165"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2401960204">
-			<ObjectPath>Init</ObjectPath>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6381558B-4C9D-AAD5-63D5-F90059EBBB67}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="985987111" Name="Motion Factory Bus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="796049864" Name="RPM"/>
+				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
+				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
+				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
+				<GameParameter Id="1524500807" Name="Playback_Rate"/>
+				<GameParameter Id="2648548617" Name="SS_Air_Month"/>
+				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
+				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
+				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay"/>
+				<GameParameter Id="3715662592" Name="SS_Air_Storm"/>
+				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
+				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
+			</GameParameters>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
+	<FileHash>{0A93826C-96C9-E993-6A40-2D6E5C426855}</FileHash>
 </SoundBanksInfo>
